@@ -73,7 +73,7 @@ This dataset contains hourly historical weather data for all Saudi Arabia cities
 </table>
 
 
-We have notice that there are few missing values, and some data need to converted to correct data type. Also it seems that the weather column represet the weather Phenomena which is in text format. and multiple Phenomena merged together. So we will extrat  the keyword "rain" and it's synonyms and create new column tells rained or not raind.
+We have notice that there are few missing values, and some data need to converted to correct data type. Also it seems that the weather column represet the weather Phenomena which is in text format. and multiple Phenomena merged together. So we will extrat  the keyword "rain" and it's synonyms and create new column tells rained or not raind. So I will work in data cleaning , Exploratory data analysis to identify and modling  the best model fit.
 
 
 # Tools
