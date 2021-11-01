@@ -2,7 +2,7 @@
 This reposotories is made in SDAIA Acadmey bootcamp.
 
 # IS IT GOING TO RAIN?
-![Benjamin Bannekat](https://www.mobiletoones.com/downloads/wallpapers/animation_wallpapers/preview/18/p5459-1201890745.gif)
+<img src="https://s-media-cache-ak0.pinimg.com/originals/1f/04/21/1f0421ecfdde0170136ddfa659bc0c45.jpg" alt="raining" width="400"/>
 
 Weather imformation is important in many industries such as Aviation, agriculture, municipalities. 
 Weather controls the distribution of rain water on earth. The aim of this study is to analysis the coorelation of the weather information and bulid model that help to predict rain Phenomena in Saudi Arabia. 
