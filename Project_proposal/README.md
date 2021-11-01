@@ -1,10 +1,10 @@
 # Project proposal
-This reposotories is made in SDAIA Acadmey bootcamp.
+This repository is made in SDAIA Acadmey bootcamp.
 
 # IS IT GOING TO RAIN?
 
-Weather imformation is important in many industries such as Aviation, agriculture, municipalities. 
-Weather controls the distribution of rain water on earth. The aim of this study is to analysis the coorelation of the weather information and bulid model that help to predict rain Phenomena in Saudi Arabia. 
+Weather information considered important in many fields such as Aviation, Agriculture, Municipalities and many others. We need water for many reasons and 
+weather controls the distribution of rain water on earth. The aim of this study is to analysis the coorelation of the weather information and bulid model that help to predict rain Phenomena in Saudi Arabia. 
 
 # Dataset
 The dataset is publically available on the Kaggle website titled Saudi Arabia Weather History.
