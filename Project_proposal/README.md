@@ -1,5 +1,5 @@
 # Project proposal
-This reposotories is made in SDAIA bootcamp 
+This reposotories is made in SDAIA Acadmey bootcamp.
 
 # Is Going To Rain?
 Weather imformation is important in many industries such as Aviation, agriculture, municipalities. 
