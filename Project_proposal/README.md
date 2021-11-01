@@ -72,9 +72,9 @@ This dataset contains hourly historical weather data for all Saudi Arabia cities
     </tr>
   </tbody>
 </table>
+<sup>Data Downloaded on 1st of Novmber 2021</sup>
 
-
-
+#### Observations
 We have notice that there are few missing values that can be imputed by means or median. Also more, some data need to converted to a correct data type. Further more, it seems that the weather column in the dataset represents the weather phenomena, which is in a text format. and multiple phenomena merged together. So we will extract the keywords "rain" and it's synonyms and placed in a new column shows the result whether is rained or not raind on that day. 
 
 
