@@ -8,4 +8,5 @@ Weather controls the distribution of rain water on earth. The aim of this study 
 # Dataset 
 The dataset is publically available on the Kaggle website titled Saudi Arabia Weather History.
 https://www.kaggle.com/esraamadi/saudi-arabia-weather-history
-It shows hourly historical weather data for all Saudi Arabia cities from 2017 to 2019 . Included a date for which you would like to see weather history such as temperature, wind, humidity, barometer, visibility and the Phenomena.
+
+This dataset contains hourly historical weather data for all Saudi Arabia cities from 2017 to 2019 . Included a date for which you would like to see weather history such as temperature, wind, humidity, barometer, visibility and the Phenomena.
