@@ -15,27 +15,38 @@ This project aims to predict the rain based on other weather elements that hopef
 ## Data
 
 Dataset is contains hourly historical weather data for all Saudi Arabia cities from 2017 to 2019 with 249023 observations and 15 variables for each, 10 Numerical and 5 Categorical variable with object datatype. Unfortunately the data is not described on the website but I have got the information from meteorologist and identified as the following :
-|  # |  Columns |   description |   |   |
+| # | Columns | description | | |
 |---|---|---|---|---|
-|  1 | `Unnamed` : | index.  |   |   |
-|  2 | `city` :    | City name.  |   |   |
-|  3 | `date` :    | The date of Observation.  |   |   |
-|  4 | `time` :    | The time of Observation.  |   |   |
-|  5 | `year` :    | The year of Observation  |   |   |
-|  6 | `month` :   | The month of Observation  |   |   |
-|  7 | `day` :     | The day of Observation |   |   |
-|  8 | `hour` :    | The hour of Observation  |   |   |
-|  9 | `minute` : | The minute of Observation  |   |   |
-| 10 | `weather` : | List of phenomenas.  |   |   |
-| 11 | `temp` :    | Temperature.  |   |   |
-| 12 | `wind` :    | Wind speed. |   |   |
-| 13 | `humidity` : | The percentage of Humidity |  |   |
-| 14 | `barometer` : |The pressure per barometer  | |   |
-| 15 | `visibility`:| The visibility per KM  |   |   |
+| 1 | `Unnamed` : | index. | | |
+| 2 | `city` : | City name. | | |
+| 3 | `date` : | The date of Observation. | | |
+| 4 | `time` : | The time of Observation. | | |
+| 5 | `year` : | The year of Observation | | |
+| 6 | `month` : | The month of Observation | | |
+| 7 | `day` : | The day of Observation | | |
+| 8 | `hour` : | The hour of Observation | | |
+| 9 | `minute` : | The minute of Observation | | |
+| 10 | `weather` : | List of phenomenas. | | |
+| 11 | `temp` : | Air Temperature. | | |
+| 12 | `wind` : | Wind speed. | | |
+| 13 | `humidity` : | The percentage of Humidity | | |
+| 14 | `barometer` : |The pressure per barometer | | |
+| 15 | `visibility`:| The visibility per KM | | |
 
+&nbsp;&nbsp;&nbsp;&nbsp; In data cleaning I resolve the missing values that can have imputed by means per city. Also I converted datatype to Numerical. Further more,Also the weather column represents the weather phenomena which is in a text format and multiple phenomena merged together. So I have extracted the rain and it's synonyms and placed in a new column `rain` Which will be our target with label 1 rain occure and 0 for otherwise.
 
 ## Algorithms
 
+On the notebook I have implemented several algorithms:
+
+Interquartile Range IQR:
+
+deal with the outliers
+
+![ temperature outliers](images/wind_outliers)
+
 ## Tools
+
+This project used Jupytur Notebooks on coda environment, Python as programming language and some python libraries, such as `numpy` , `pandas` for mathematical functions, data analysis and manipulation. Also for predictive data analysis it uses `cikit-learn`, `tensorflow` and `SMOTE` for data balancing. For data visualization uses `matplotlib` and `seaborn`.
 
 ## Communication
