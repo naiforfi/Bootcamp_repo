@@ -44,9 +44,17 @@ The `wind`, `temp`, `visibility`, `barometer` columns contain outliers. So I use
 
 ![ temperature outliers](images/wind_outliers.png)
 
+| # | Columns | description | | |
+|---|---|---|---|---|
+| 1 | `Unnamed` : | ![ temperature outliers](images/wind_outliers.png) | | |
+| 1 | `Unnamed` : | ![temperature outliers](images/Before_balancing.png) | | |
+| 1 | `Unnamed` : | ![temperature outliers](images/After_balancing.png) | | |
+
+
+
 **SMOTE:** This approach to addressing imbalanced datasets is to oversample the minority class. `rain` was imbalanced with
 
-![temperature outliers](images/After_balancing.png){:height="50%" width="50%"} 
+![temperature outliers](images/After_balancing.png)
 ![temperature outliers](images/Before_balancing.png)
 
 ## Tools
