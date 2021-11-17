@@ -46,9 +46,9 @@ The `wind`, `temp`, `visibility`, `barometer` columns contain outliers. So I use
 
 | # | Columns | description | | |
 |---|---|---|---|---|
-| 1 | `Unnamed` : | ![ temperature outliers](images/wind_outliers.png) | | |
-| 1 | `Unnamed` : | ![temperature outliers](images/Before_balancing.png) | | |
-| 1 | `Unnamed` : | ![temperature outliers](images/After_balancing.png) | | |
+| 1 | temperature outliers : | ![ temperature outliers](images/wind_outliers.png) | | |
+| 1 | Before data balancing  : | ![temperature outliers](images/Before_balancing.png) | | |
+| 1 | After data balancing : | ![temperature outliers](images/After_balancing.png) | | |
 
 
 
