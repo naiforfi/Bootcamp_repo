@@ -40,22 +40,28 @@ Dataset is contains hourly historical weather data for all Saudi Arabia cities f
 On the notebook I have implemented several algorithms:
 
 **Interquartile Range IQR:**
-The `wind`, `temp`, `visibility`, `barometer` columns contain outliers. So I used IQR approach to capture maximum and minimum values and remove outliers from the above variables. below is Illustrate the outliers.
+The `wind`, `temp`, `visibility`, `barometer` columns contain outliers. So I used IQR approach to capture maximum and minimum values and remove outliers from the above variables. Figure (1) is Illustrating the outliers.
 
-![ temperature outliers](images/wind_outliers.png)
+**Oversampling "SMOTE":** This approach to addressing imbalanced datasets is to oversample the minority class. `rain` was imbalanced with 245696 `False` and 3327 `True` observation. So I got 245696 for each after oversampling the dataset.
 
-| # | Columns | description | | |
-|---|---|---|---|---|
-| 1 | temperature outliers : | ![ temperature outliers](images/wind_outliers.png) | | |
-| 1 | Before data balancing  : | ![temperature outliers](images/Before_balancing.png) | | |
-| 1 | After data balancing : | ![temperature outliers](images/After_balancing.png) | | |
+**Feature Scaling:** Feature Scaling is implemented before traing the models.
 
+### Modeling
 
+**Logistic Regression:** Firstly, I have trained the model with Logistic Regression with parameters `solver= 'liblinear' , C=1000` and I got the accuracy **89.15 %** in test dataset.
 
-**SMOTE:** This approach to addressing imbalanced datasets is to oversample the minority class. `rain` was imbalanced with
+**Artificial Neural Network (ANN):** Second, I have trained the model with Artificial Neural Network with parameters `batch_size = 3200, epochs = 100` and get the accuracy **93.43 %** in test dataset.
 
-![temperature outliers](images/After_balancing.png)
-![temperature outliers](images/Before_balancing.png)
+**RandomForestClassifier:** Lastly, I have trained the model with Logistic Regression with parameters `solver= 'liblinear' , C=1000` and get the accuracy **99.61** in test dataset.
+
+| #   | Figure                                        |                                  |     |     |
+| --- | --------------------------------------------- | -------------------------------- | --- | --- |
+| 1   | temperature outliers :                        | ![](images/wind_outliers.png)    |     |     |
+| 2   | Imbalanced data :                             | ![](images/Before_balancing.png) |     |     |
+| 3   | After data balancing :                        | ![](images/After_balancing.png)  |     |     |
+| 3   | Confusion matrix for Logistic Regression :    | ![](images/cm_lg.png)            |     |     |
+| 3   | Confusion matrix for ANN :                    | ![](images/cm_ann.png)           |     |     |
+| 3   | Confusion matrix for RandomForestClassifier : | ![](images/cm_rf.png)            |     |     |
 
 ## Tools
 
