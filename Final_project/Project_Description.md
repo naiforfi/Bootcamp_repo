@@ -47,11 +47,11 @@ On the notebook I have implemented several algorithms:
 
 ### Modeling
 
-**Logistic Regression:** Firstly, I have trained the model with Logistic Regression with parameters `solver= 'liblinear' , C=1000` and I got the accuracy **89.15 %** in test dataset. Figure (4) shows Confusion matrix.
+**Logistic Regression:** Firstly, I have trained the model with Logistic Regression with parameters `solver= 'liblinear' , C=1000` and I got the accuracy **89.22 %** in test dataset. Figure (4) shows Confusion matrix.
 
-**Artificial Neural Network (ANN):** Second, I have trained the model with Artificial Neural Network with parameters `batch_size = 3200, epochs = 100` and get the accuracy **93.43 %** in test dataset. Figure (5) shows Confusion matrix.
+**Artificial Neural Network (ANN):** Second, I have trained the model with Artificial Neural Network with parameters `batch_size = 3200, epochs = 100` and get the accuracy **93.24 %** in test dataset. Figure (5) shows Confusion matrix.
 
-**RandomForestClassifier:** Lastly, I have trained the model with Logistic Regression with parameters `sn_estimators = 10, criterion = 'entropy', random_state = 42` and get the accuracy **99.61** in test dataset. Figure (6) shows Confusion matrix.
+**RandomForestClassifier:** Lastly, I have trained the model with Logistic Regression with parameters `sn_estimators = 10, criterion = 'entropy', random_state = 42` and get the accuracy **99.58** in test dataset. Figure (6) shows Confusion matrix.
 
 | #   | Figure                                        |                                  |     |     |
 | --- | --------------------------------------------- | -------------------------------- | --- | --- |
@@ -82,4 +82,4 @@ Finaly, I have Trained the training dataset with three models and got the accura
 
 3- `RandomForestClassifier`.
 
-It seems that, `RandomForestClassifier` was the best model fit with accuracy score **99.6 %**.
+It seems that, `RandomForestClassifier` was the best model fit with accuracy score **99.58 %**.
