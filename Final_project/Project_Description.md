@@ -43,7 +43,7 @@ Interquartile Range IQR:
 
 deal with the outliers
 
-![ temperature outliers](images/wind_outliers)
+![ temperature outliers](images/wind_outliers.png)
 
 ## Tools
 
