@@ -46,8 +46,8 @@ The `wind`, `temp`, `visibility`, `barometer` columns contain outliers. So I use
 
 **SMOTE:** This approach to addressing imbalanced datasets is to oversample the minority class. `rain` was imbalanced with
 
-![temperature outliers](images/after_balancing.png) 
-![temperature outliers](images/before_balancing.png)
+![temperature outliers](images/After_balancing.png) 
+![temperature outliers](images/Before_balancing.png)
 
 ## Tools
 
