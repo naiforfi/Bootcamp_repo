@@ -39,11 +39,15 @@ Dataset is contains hourly historical weather data for all Saudi Arabia cities f
 
 On the notebook I have implemented several algorithms:
 
-Interquartile Range IQR:
-
-deal with the outliers
+**Interquartile Range IQR:**
+The `wind`, `temp`, `visibility`, `barometer` columns contain outliers. So I used IQR approach to capture maximum and minimum values and remove outliers from the above variables. below is Illustrate the outliers.
 
 ![ temperature outliers](images/wind_outliers.png)
+
+**SMOTE:** This approach to addressing imbalanced datasets is to oversample the minority class. `rain` was imbalanced with 
+
+![temperature outliers](images/after_balancing.png | width=100)
+![temperature outliers](images/before_balancing.png =250x250)
 
 ## Tools
 
