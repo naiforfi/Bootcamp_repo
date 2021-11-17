@@ -10,7 +10,7 @@ Naif Alorfi
 
 ## Design
 
-&nbsp;&nbsp;&nbsp;&nbsp; This project aims to predict the rain based on other weather elements that hopefully it can help forecasters in the meteorology center and other officals for example Municipalities need the rain forcast to get prepared for any incident that may occur because of the rain Such as flash flood. I understand there is many factors that should be considered when forecasting the weather. This project is based on the dataset available publicly at [Kaggle](https://www.kaggle.com/esraamadi/saudi-arabia-weather-history) website with title "Saudi Arabia Weather History".
+&nbsp;&nbsp;&nbsp;&nbsp; This project aims to predict the rain based on other weather elements that hopefully it can help forecasters in the meteorology center and other officials for example Municipalities need the rain forecast to get prepared for any incident that may occur because of the rain Such as flash flood. I understand there is many factors that should be considered when forecasting the weather. This project is based on the dataset available publicly at [Kaggle](https://www.kaggle.com/esraamadi/saudi-arabia-weather-history) website with title "Saudi Arabia Weather History".
 
 ## Data
 
@@ -43,7 +43,7 @@ On the notebook I have implemented several algorithms:
 
 **Oversampling "SMOTE":** This approach for addressing imbalanced datasets by oversample the minority class. `rain` was imbalanced with 245696 `False` and 3327 `True` observation. So I got 245696 for each after implementing SMOTE.Figure (2,3) is shows the difference.
 
-**Feature Scaling:** Feature Scaling is implemented before traing the models.
+**Feature Scaling:** Feature Scaling is implemented before training the models.
 
 ### Modeling
 
@@ -72,9 +72,9 @@ I'm attaching the MS PowerPoint slides to summaries this project journey. I will
 
 **Conclusion**
 I have cleaned up the dataset by replacing the missing values with mean per city.
-In addion, I extracted the `Rain` from the `weather` to form up the target. Further more, I have reseted the outliers to the minimum and maximum values then I have balanced the data with SMOTE and the Feature Scaling is implemented.
+In addion, I extracted the `Rain` from the `weather` to form up the target. Further more, I have resolved the outliers to the minimum and maximum values then I have balanced the data with SMOTE and the Feature Scaling is implemented.
 
-Finaly, I have train the traing dataset with three models and got the accuracy, recall, precision and F1-score:
+Finaly, I have Trained the training dataset with three models and got the accuracy, recall, precision and F1-score:
 
 1- `LogisticRegression`.
 
